@@ -1,6 +1,6 @@
-import React from 'react';
-import { App } from '@styles/App.styles';
+import React from 'react'
+import FWC from '@pages/FootballScoreBoard.page';
 
-export default function AppComponent():React.ReactElement {
-    return <App><h1>Hello world!</h1></App>;
+export default function App():React.ReactElement {
+    return (<FWC/>);
 }
